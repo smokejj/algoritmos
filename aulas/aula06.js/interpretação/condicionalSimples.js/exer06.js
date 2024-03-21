@@ -1,15 +1,19 @@
-let tipoDePokemon = "Bulbasauro"
-let tipoDePokemon2 = "Charmander"
-let tipoDePokemon3 = "Squirtle"
+let tipoDePokemon = "bulbasauro"
+let tipoDePokemon2 = "charmander"
+let tipoDePokemon3 = "squirtle"
+let meuPokemon = 'bulbasauro'
 
- switch (tipoDePokemon , tipoDePokemon2 , tipoDePokemon3){
+
+ switch (meuPokemon){
     case 'bulbasauro':
-console.log('seu tipo de pokemon é planta e veneno')
+console.log(' pokemon tipo planta e veneno ')
       break
-    case '':
-console.log('')
+    case 'charmander':
+console.log('pokemon tipo fogo ')
     break
-
-    default
-    console.log('')
+    case 'squirtle':
+console.log('pokemon tipo água ')
+    break
+    default:
+console.log('não foi encontrado esse pokemon')
 }

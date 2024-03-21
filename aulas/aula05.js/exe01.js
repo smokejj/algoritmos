@@ -1,6 +1,6 @@
-let nome = "Jeferson";
-let idade = 15
-let ano = 2008
+let nome = "Everton";
+let idade = 40
+let ano = 1983
 let anoAtual = 2024
 let maioridade = (idade >=18)
 let ano2050 = 2050 - ano
