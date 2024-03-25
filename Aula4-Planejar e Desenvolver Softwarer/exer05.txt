@@ -1,0 +1,9 @@
+
+true
+true
+true
+false
+gato
+ gato
+gato
+[?2004h

@@ -1,0 +1,8 @@
+[?2004l
+5  =  8  ?  false
+5 != 8 ? true
+5 > 8 ? false
+5 < 8 ? true
+5 > 8 ? false
+5 <= 8 ? true
+[?2004h
