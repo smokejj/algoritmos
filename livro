@@ -1,0 +1,26 @@
+public class Livro{
+    public int Paginas;
+    public String Titulo;
+    public String Autor;
+    
+    
+    public Livro(int Paginas, String Titulo, String Autor){
+        this.Paginas = Paginas;
+        this.Titulo = Titulo;
+        this.Autor = Autor;
+    }
+    
+    public void Informacoes(){
+        System.out.println("O nome do livro é " + Titulo + ", tem" +Paginas+ " paginas, o autor é o " +autor );
+    }
+    
+}
+
+public class Livro extends Livro{
+
+	public static void main(String[] args) {
+		Livro livro = new livro(50,"Carros 3","Jeferson");
+		
+		livro.Informacoes();
+	}
+}
